@@ -1,49 +1,37 @@
-# NLP Projects Repository
+# Sentiment Analysis on Movie Reviews using Naive Bayes Classifier
 
-Welcome to the NLP Projects Repository! This repository houses various Natural Language Processing (NLP) projects, showcasing applications, models, and techniques in the field of NLP. Whether you're a beginner looking to explore NLP concepts or an experienced practitioner seeking inspiration, this repository has something for you.
+## Overview
 
-## About
+Welcome to the Sentiment Analysis on Movie Reviews project repository! This project explores the implementation and evaluation of a Naive Bayes classifier for sentiment analysis on a movie review dataset. The primary objectives include data preprocessing, vocabulary building, model implementation, training, evaluation, and analysis of the classifier's performance.
 
-This repository is a collection of NLP projects developed using various libraries, frameworks, and datasets. Each project is aimed at addressing different aspects of natural language processing, including but not limited to:
+## Data Source
 
-- Text classification
-- Sentiment analysis
-- Named Entity Recognition (NER)
-- Text generation
-- Machine translation
-- Question-Answering systems
-- And more!
+The movie review dataset used in this project was obtained from [Denny Britz's GitHub repository](https://github.com/dennybritz/cnn-text-classification-tf/tree/master/data/rt-polaritydata). It contains both negative and positive reviews, making it suitable for sentiment analysis tasks.
 
-## Structure
+## Project Structure
 
-The repository is organized into directories, each containing a separate NLP project. Inside each project directory, you'll find:
+- **Data Preprocessing:** Raw text data is preprocessed through tokenization, lowercase conversion, and stopwords removal to prepare it for classification.
+- **Vocabulary Building:** A vocabulary of 3000 most frequent words is built from the training data to represent features for the classifier.
+- **Data Splitting:** The dataset is split into training (70%), development (15%), and test (15%) sets for training, tuning, and evaluation purposes.
+- **Naive Bayes Classifier Implementation:** The classifier is implemented from scratch, adhering to Naive Bayes principles for feature extraction, likelihood computation, and prediction.
+- **Model Training and Evaluation:** The classifier is trained on the training set, tuned on the development set, and evaluated on both development and test sets to assess its performance.
+- **Analysis:** Confident and uncertain examples are analyzed to understand the classifier's behavior, and the most useful features for sentiment classification are identified.
 
-1. **README.md**: A detailed description of the project, including its objectives, methodologies, and results.
-2. **Code**: Python scripts or Jupyter notebooks containing the code for the project.
-3. **Datasets**: Datasets used for training and evaluation purposes.
-4. **Project Report**: Summary of the results.
-5. **Running the python script**: Instructions on how to run the python script
+## Results
 
-## Getting Started
+- **Development Set Accuracy:** 73.97%
+- **Test Set Accuracy:** 76.03%
 
-To get started with exploring the projects in this repository, follow these steps:
+## Conclusion
 
-1. Clone the repository to your local machine using `git clone https://github.com/your_username/nlp-projects.git`.
-2. Navigate to the directory of the project you're interested in.
-3. Read the project's README.md file for an overview and instructions.
-4. Explore the code, datasets, and results to understand the project in detail.
-5. Experiment with the code, modify parameters, or try different datasets to further your understanding.
+The project provides valuable insights into sentiment analysis on movie reviews using a Naive Bayes classifier. Through meticulous preprocessing, model implementation, and evaluation, an effective classifier is developed and analyzed comprehensively. Further experimentation and exploration of advanced techniques could lead to enhancements in classifier performance and deeper insights into sentiment analysis tasks.
 
-## Contribution
+## Future Work
 
-Contributions to this repository are welcome! If you have an NLP project you'd like to share or if you've made improvements to an existing project, feel free to submit a pull request. Please ensure your code follows best practices, is well-documented, and includes any necessary instructions for running the project.
-
-## License
-
-This repository is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code for both commercial and non-commercial purposes.
+Future work may involve exploring advanced techniques such as lemmatization, feature selection, and model optimization to improve classifier performance. Additionally, investigating other machine learning algorithms and ensembling techniques could provide further insights and potentially enhance classification accuracy.
 
 ## Contact
 
-If you have any questions, suggestions, or feedback, feel free to reach out to [bbofori90@gmail.com](mailto:bbofori90@gmail.com). You can also create an issue in the repository, and we'll get back to you as soon as possible.
+For any questions, feedback, or collaboration opportunities, feel free to reach out to [bbofori90@gmail.com].
 
-Happy coding and exploring the fascinating world of Natural Language Processing! 🚀📚
+Happy exploring sentiment analysis in movie reviews! 🎬📝
