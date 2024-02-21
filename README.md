@@ -22,6 +22,7 @@ The repository is organized into directories, each containing a separate NLP pro
 2. **Code**: Python scripts or Jupyter notebooks containing the code for the project.
 3. **Datasets**: Datasets used for training and evaluation purposes.
 4. **Project Report**: Summary of the results.
+5. **Running the python script**: Instructions on how to run the python script
 
 ## Getting Started
 
