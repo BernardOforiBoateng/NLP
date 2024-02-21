@@ -1,0 +1,20 @@
+# Instructions for running the script:
+
+# 1. Install dependencies:
+#    Run the following command to install the required library:
+#    pip install scikit-learn nltk
+
+# 2. Dataset Location:
+#    Ensure that your positive and negative review files are located at the same directory as the script:
+#    - NaiveBayesClassifier.py
+#    - rt-polarity.pos
+#    - rt-polarity.neg
+
+# 3. Running the Script:
+#    Open a terminal or command prompt and navigate to the directory containing this script.
+#    Run the script using the following command:
+#    python NaiveBayesClassifier.py
+
+# 4. Output Interpretation:
+#    The script will output the overall accuracy on the development set and accuracy of the test set, certain and uncertain examples, and the most usef
+
